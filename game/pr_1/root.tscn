@@ -1,0 +1,286 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://root.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 32, 32 )
+
+[node name="root" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="box" type="RigidBody2D" parent="." index="0"]
+
+editor/display_folded = true
+position = Vector2( 121, 3 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box2" type="RigidBody2D" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( 77, -62 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box2" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box2" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box3" type="RigidBody2D" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( 11, -95 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box3" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box3" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box4" type="RigidBody2D" parent="." index="3"]
+
+editor/display_folded = true
+position = Vector2( -56, -72 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box4" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box4" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box5" type="RigidBody2D" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( -129, -21 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box5" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box5" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box6" type="RigidBody2D" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( -107, 44 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box6" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box6" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box7" type="RigidBody2D" parent="." index="6"]
+
+editor/display_folded = true
+position = Vector2( -31, 89 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box7" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box7" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="box8" type="RigidBody2D" parent="." index="7"]
+
+editor/display_folded = true
+position = Vector2( 59, 81 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 10.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="col" type="CollisionShape2D" parent="box8" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="tex" type="Sprite" parent="box8" index="1"]
+
+texture = ExtResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="." index="8"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 0.5, 0.5 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = false
+smoothing_speed = 5.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+
+
